@@ -1,0 +1,73 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    text-align: center;
+    color: rgb(0, 35, 207);
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#input-task{
+    color: darkblue;
+    border-radius: 20px;
+    border: 1pt black solid;
+    text-align: center;
+}
+
+.amain{
+    width: 100%;
+    height: auto;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tarefas{
+    color: blue;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column-reverse;
+
+  
+ 
+}
+
+#tarefas-anotada{
+    background-color: rgba(255, 255, 255, 0.952);
+    width: 300px;
+    height: auto;
+    border: 1px solid rgb(0, 110, 255);
+    word-break: break-all;
+    margin: 1px 0px 1px 0px;
+}
+
+.btnExcluir{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0,0,0, 0.3);
+    float: right;
+    color: white;
+}
+
+.btnEditar{
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0,0,0, 0.5);
+    float: right;
+    color: white;
+}
+
+
